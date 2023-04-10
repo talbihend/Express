@@ -91,9 +91,14 @@ background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, F
 .menu{
     text-decoration: underline;
     margin-top: 60px;
+    margin-left: 70px;
 }
 .all-services{
-    margin-left: 100px;
+    margin-left: 95px;
+    border: solid;
+    border-color: black;
+    border-radius: 8px;
+    border-width: 2px;
 }
 .img-appetizer{
     height: 150px;
@@ -179,41 +184,59 @@ background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, F
     display: flex;
 }
 .div-cont-us{
-    
+    margin-top: 170px;
+    background-color: beige;
+    height: 170px;
+    width: 410px;
+    margin-left: 200px;
+
+
+}
+.titre-contact-us{
+    margin-left: 30px;
 }
 .div-cordonné{
-    background-image: url("https://media.istockphoto.com/id/1337869850/photo/empty-wooden-table-top-with-lights-bokeh-on-blur-restaurant-background.jpg?b=1&s=170667a&w=0&k=20&c=T1m8u3rGWIFPg257HZCdPaz7y1LGpj_iGzzLtbUxX00=");
-    /* background-image: url("https://static.vecteezy.com/system/resources/previews/002/924/937/original/empty-minimal-wooden-top-table-wood-podium-in-white-background-with-green-leaves-for-product-presentation-mock-up-show-cosmetic-product-display-podium-stage-pedestal-or-platform-3d-free-vector.jpg"); */
-
+   
+    background-color: rgb(225,198,153);
+    width: 500px;
+    padding-bottom: 30px;
+    margin-left: 300px;
+    margin-top: 70px;
 }
 
 .titre-reserve-table{
-    
+    text-align: center;
 }
 .cordonné{
     font-family: 'Roboto';
-    font-size: 21px;
+    font-size: 18px;
     margin-top: 20px;
-    color: rgb(85, 81, 81);
+    color: black;
+    margin-left: 60px;
 }
 .inputt{
     height: 30px;
     width: 300px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 70px;
     border-radius: 5px;
     font-family: 'Roboto';
     font-size: 17px
 }
 .btn-reserve{
         height:30px;
-        width: 50px;
-        margin-left: 55px;
+        width: 80px;
+        margin-left: 170px;
         box-shadow: 1px 1px 3px 1px grey;
         border:  none;
         border-radius: 5px;
         font-family: 'Roboto';
-        font-size: 17px;
+        font-size: 20px;
         margin-top: 10px;
+        background-color: transparent;
+        box-shadow: 1px 1px 2px 2px bisque;
+
+
+        
 }
